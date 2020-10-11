@@ -5,7 +5,7 @@
 			position: fixed;
 		    top: 38vh;
 		    background: #85DBFF;
-		    padding: 10px 20px;
+		    padding: 10px 20px 30px;
 		    text-align: center;
 		    align-items: center;
 		    color: white;
@@ -15,7 +15,7 @@
 		}
 		.floating-button{
 			color:#171717;
-			
+
 		}
 		.floating-button:hover{
 			color:#171717;
