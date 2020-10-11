@@ -98,6 +98,11 @@
 	width: 85%;
 	margin: auto;
 }
+@media (max-width: 1120px) {
+	.map-container{
+		width: 96%;
+	}
+}
 @media screen and (max-width: 991px) {
 	.map-container{
 		

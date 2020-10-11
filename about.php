@@ -45,69 +45,7 @@
 
 <body>
 	
-	<!-- Load page -->
-	<div class="animationload">
-		<div class="loader"></div>
-	</div>
-	
-	
-	<!-- NAVBAR SECTION -->
-	<div class="navbar navbar-main navbar-fixed-top">
-		<div class="header-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
-						<div class="info">
-							<div class="info-item">
-								<span class="fa fa-phone"></span> Phone +62 7144 3300
-							</div>
-							<div class="info-item">
-								<span class="fa fa-envelope-o"></span> <a href="mailto:info@laundryes.com" title="">Email info@laundryes.com</a>
-							</div>
-							
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
-						<div class="top-sosmed pull-right">
-							<a href="#" title=""><span class="fa fa-facebook"></span></a>
-							<a href="#" title=""><span class="fa fa-twitter"></span></a>
-							<a href="#" title=""><span class="fa fa-instagram"></span></a>
-							<a href="#" title=""><span class="fa fa-pinterest"></span></a>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html"><img src="images/logo_blue.png" alt="" /></a>
-				
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
-					  <ul class="dropdown-menu">
-						<li><a href="index.html">Homepage Default</a></li>
-						<li><a href="index2.html">Homepage Sliders</a></li>
-					  </ul>
-					</li>
-					<li class="active"><a href="about.html">ABOUT</a></li>
-					<li><a href="services.html">SERVICES</a></li>
-					<li><a href="pricing.html">PRICING</a></li>
-					<li><a href="faq.html">FAQ</a></li>
-					<li><a href="blog.html">BLOG</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
-				</ul>
-			</div>
-		</div>
-    </div>
+	<?php include "template/header.php" ; ?>
 
  
 	<!-- BANNER ROTATOR -->
@@ -202,7 +140,7 @@
 	
 	
 	<!-- STATS SECTION FACTS --> 
-	<div class="section stat-facts" style="background:url('images/page_img-u24411-fr.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover">
+	<!--div class="section stat-facts" style="background:url('images/page_img-u24411-fr.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover">
 		<div class="bg-overlay">
 			<div class="container">
 				<div class="row">
@@ -258,11 +196,69 @@
 				</div>
 			</div>
 		</div>
+	</div-->
+	<!-- STATS SECTION FACTS --> 
+	<div class="section stat-facts" style="background:url('images/page_img-u24411-fr.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover">
+		<div class="bg-overlay">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<div class="stat-item">
+							<div class="icon">
+								<i class="fa fa-briefcase"></i>
+							</div>
+							<div class="stat-title">
+								<h3 class="number">100%</h3>
+								<p>Hygiene</p>
+							</div>	
+						</div>
+					</div>
+					
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<div class="stat-item">
+							<div class="icon">
+								<i class="fa fa-coffee"></i>
+							</div>
+							<div class="stat-title">
+								<h3 class="number">100% </h3>
+								<p>Live Concepts</p>
+							</div>	
+						</div>
+					</div>
+					
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<div class="stat-item">
+							<div class="icon">
+								<i class="fa fa-thumbs-o-up"></i>
+							</div>
+							<div class="stat-title">
+								<h3 class="number">100%</h3>
+								<p> Client Satisfied</p>
+							</div>	
+						</div>
+					</div>
+					
+					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+						<div class="stat-item">
+							<div class="icon">
+								<i class="fa fa-users"></i>
+							</div>
+							<div class="stat-title">
+								<h3 class="number">20k+ </h3>
+								<p>Store Visit</p>
+							</div>	
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
 	</div>
 	
 	
 	<!-- ABOUT SECTION -->
-	<div class="section">
+	<!--div class="section">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-12">
@@ -294,7 +290,7 @@
 			</div>
 			
 		</div>
-	</div>
+	</div-->
 	
 	
 	
@@ -354,166 +350,7 @@
 	</div>
 	
 	
-	<!-- FOOTER SECTION -->
-	<div class="footer">
-	
-		<div class="f-desc">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="footer-item">
-							<div class="footer-logo">
-								<img src="images/logo_blue.png" alt="" />
-							</div>
-							<p>This template is a micro niche for business categories, namely laundry business. there was an excess of this template is using adobe muse making it easier to edit, add content, and without having to use the coding in the edit.</p>
-							<div class="footer-sosmed">
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-facebook"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-twitter"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-pinterest"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-google"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-instagram"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-linkedin"></i>
-									</div>
-								</a> 
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="footer-item">
-							<div class="footer-title">
-								<h4>RECENT POST</h4>
-							</div>
-							<div class="footer-blog-item">
-								<div class="footer-blog-lead">
-									<a href="blog-1.html" title="">How to laundry your suit office - tips and trick.</a>
-								</div>
-								<div class="footer-blog-date">
-									May 29, 2015
-								</div>
-							</div>
-							<div class="footer-blog-item">
-								<div class="footer-blog-lead">
-									<a href="blog-1.html" title="">How to laundry your suit office - tips and trick.</a>
-								</div>
-								<div class="footer-blog-date">
-									May 29, 2015
-								</div>
-							</div>
-							
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="footer-item">
-							<div class="footer-title">
-								<h4>NEWSLETTER</h4>
-							</div>
-							<div class="footer-form">
-								<form action="#">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Name">
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Email">
-									</div>
-									<div class="form-group">
-										<button type="submit" class="btn btn-default">SEND</button>
-									</div>
-									
-								</form>
-							</div>
-							
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="footer-item">
-							<div class="footer-title">
-								<h4>GET IN TOUCH</h4>
-							</div>
-							<div class="footer-getintouch">
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-phone"></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Phone</div>
-										<div class="desc-2">:</div>
-										<div class="desc-3">+62 7000 4400 <br />+62 7000 4422</div>
-									</div>
-								</div>
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-envelope "></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Email</div>
-										<div class="desc-2">:</div>
-										<div class="desc-3"><a href="mailto:support@laundryes.com" title="">support@laundryes.com</a></div>
-									</div>
-								</div>
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-globe"></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Website </div>
-										<div class="desc-2">:</div>
-										<div class="desc-3">www.laundryes.com</div>
-									</div>
-								</div>
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-map-marker"></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Address </div>
-										<div class="desc-2">:</div>
-										<div class="desc-3">80 sukarajin street <br />Pekanbaru 40021 Riau</div>
-									</div>
-								</div>
-								
-							</div>
-						</div>
-						
-					</div>
-					
-				</div>
-			</div>
-				
-		</div>
-		
-		<div class="fcopy">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<p class="ftex">&copy; 2016 Laundryes by Rudhi Sasmito - All Rights Reserved</p> 
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	</div>
+	<?php include "template/footer.php";?>
 	
 	
 	

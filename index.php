@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
   
-<!-- Mirrored from 138.68.248.212/demo/laundryes/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 31 Aug 2020 13:19:12 GMT -->
+<!-- Mirrored from 138.68.248.212/demo/laundryes/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 31 Aug 2020 13:19:12 GMT -->
 <head>
     <!-- Basic Page Needs
     ================================================== -->
@@ -50,70 +50,7 @@
 
 <body>
 	
-	<!-- Load page -->
-	<div class="animationload">
-		<div class="loader"></div>
-	</div>
-	
-	
-	<!-- NAVBAR SECTION -->
-	<div class="navbar navbar-main navbar-fixed-top">
-		<div class="header-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
-						<div class="info">
-							<div class="info-item">
-								<span class="fa fa-phone"></span> Phone +91 9859091091, +91 9761088631
-							</div>
-							<div class="info-item">
-								<span class="fa fa-envelope-o"></span> <a href="mailto:info@laundryes.com" title="">Email info@laundryes.com</a>
-							</div>
-							
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
-						<div class="top-sosmed pull-right">
-							<a href="#" title=""><span class="fa fa-facebook"></span></a>
-							<a href="#" title=""><span class="fa fa-twitter"></span></a>
-							<a href="#" title=""><span class="fa fa-instagram"></span></a>
-							<a href="#" title=""><span class="fa fa-pinterest"></span></a>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-				<!--a class="navbar-brand" href="index.html"><img src="images/logo_blue.png" alt="" /></a-->
-				<a class="navbar-brand" href="index.html"><img src="assets/img/logo/logo2.png" alt="" /></a>
-				
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
-					  <ul class="dropdown-menu">
-						<li><a href="index.html">Homepage Default</a></li>
-						<li><a href="index2.html">Homepage Sliders</a></li>
-					  </ul>
-					</li>
-					<li><a href="about.html">ABOUT</a></li>
-					<li><a href="services.html">SERVICES</a></li>
-					<li><a href="pricing.html">PRICING</a></li>
-					<li><a href="faq.html">FAQ</a></li>
-					<li><a href="blog.html">BLOG</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
-				</ul>
-			</div>
-		</div>
-    </div>
+	<?php include "template/header.php" ; ?>
 
  
 	<!-- BANNER -->
@@ -123,8 +60,8 @@
 				<div class="title-box">
 					<h2>WE ARE THE BEST LAUNDRY SERVICES</h2>
 				</div>
-				<p>This template is using adobe muse making it easier to edit, add content, and without having to use the coding in the edit.</p>
-				<a href="#" title="" class="btn btn-default">LEARN MORE</a>
+				<p>Don’t air your dirty laundry, let us do it for you.</p>
+				<a href="tel:+91 9859091091" title="" class="btn btn-default">CALL US NOW</a>
 			</div>
 		</div>
 		<div class="imgbg" style="background:url('images/homeslide.jpg') no-repeat center center;   -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover">
@@ -217,7 +154,7 @@
 							<div class="fa fa-life-bouy"></div>
 						</div>
 						<div class="ket">
-							<h4>GUARANTEE</h4>
+							<h4>100% HYGIENE</h4>
 							<p>Of course this is muse templates, you dont need to writing code to edit, you just need to drag and drop your images.</p>
 						</div>
 					</div>
@@ -333,8 +270,8 @@
 								<i class="fa fa-briefcase"></i>
 							</div>
 							<div class="stat-title">
-								<h3 class="number">450</h3>
-								<p>Business Clients</p>
+								<h3 class="number">100%</h3>
+								<p>Hygiene</p>
 							</div>	
 						</div>
 					</div>
@@ -345,8 +282,8 @@
 								<i class="fa fa-coffee"></i>
 							</div>
 							<div class="stat-title">
-								<h3 class="number">250</h3>
-								<p>Cup of Coffee</p>
+								<h3 class="number">100% </h3>
+								<p>Live Concepts</p>
 							</div>	
 						</div>
 					</div>
@@ -357,8 +294,8 @@
 								<i class="fa fa-thumbs-o-up"></i>
 							</div>
 							<div class="stat-title">
-								<h3 class="number">4554</h3>
-								<p>People Like Us</p>
+								<h3 class="number">100%</h3>
+								<p> Client Satisfied</p>
 							</div>	
 						</div>
 					</div>
@@ -369,8 +306,8 @@
 								<i class="fa fa-users"></i>
 							</div>
 							<div class="stat-title">
-								<h3 class="number">350</h3>
-								<p>Employees</p>
+								<h3 class="number">20k+ </h3>
+								<p>Store Visit</p>
 							</div>	
 						</div>
 					</div>
@@ -483,21 +420,29 @@
 					<img src="assets/img/b.jpg" class="pickup-img" alt="pickup laundry">
 				</div>
 				<div class="form-container">
-					<div class="row">
+					<form class="row" method="post" action="success.php">
 						<div class="col-sm-6 col-md-6 pickup-input-container">
-							<input type="text" name="pickup_name" id="pickup_name" class="pickup-input" placeholder="Your Name">
+							<input type="text" name="pickup_name" id="pickup_name" class="pickup-input" placeholder="Your Name" required="required">
 						</div>
 						<div class="col-sm-6 col-md-6 pickup-input-container">
-							<input type="number" name="pickup_phone" id="pickup_phone" class="pickup-input" placeholder="Your Contact No.">
+							<input type="number" name="pickup_phone" id="pickup_phone" class="pickup-input" placeholder="Your Contact No." required="required" min="1111111111" max="9999999999">
+						</div>
+						<div class="col-sm-12 col-md-12 pickup-input-container" id="area-div">
+							
+							<select class="pickup-input" name="area" id="area" required="required" onchange="address_area()">
+								<option value="">-- Select your area --</option>
+								<option value="Lajpat Nagar, UP">Lajpat Nagar, UP</option>
+								<option value="Crossing Republik">Crossing Republik</option>
+							</select>
 						</div>
 						<div class="col-sm-12 col-md-12 pickup-input-container">
-							<input type="text" name="pickup_address" id="pickup_address" class="pickup-input" placeholder="Pickup address">
+							<input type="text" name="pickup_address" id="pickup_address" class="pickup-input" placeholder="Pickup address" required="required">
 						</div>
 						<div class="col-sm-12 col-md-12 pickup-input-container">
 							
 							<div class='input-group date' id='datetimepicker1'>
-			                    <input type='text' class="form-control"  name="pickup_time" id="pickup_time" placeholder="Pickup Time" />
-			                    <span class="input-group-addon">
+			                    <input type='text' class="form-control"  name="pickup_time" id="pickup_time" placeholder="Pickup Time" required="required"/>
+			                    <span class="input-group-addon" >
 			                    	<span class="glyphicon glyphicon-calendar"></span>
 			                    </span>
 			                </div>
@@ -505,7 +450,7 @@
 						<div class="col-sm-6 col-md-6 pickup-input-container">
 							<input type="submit" name="pickup_submit" id="pickup_submit" class="pickup-submit" value="Send Us">
 						</div>
-					</div>
+					</form>
 				</div>
 			</div>
 			
@@ -529,7 +474,7 @@
 			            </div>
 			        </div>
 			        <div class="col-lg-3 col-sm-3 col-md-3 col-xs-12"> <img src="https://www.biglaundry.com/img/work-2.png" class="img-responsive margin-auto">
-			          <h4 class="text-center white subhead">Pick Up</h4>
+			          <h4 class="text-center white subhead">Collection</h4>
 			          <p class="white text-center padding-add">Our trained, uniformed personnel with eco-friendly bags will pick up your clothes for laundry/dry-cleaning/bleaching/starching at allotted time. </p>
 			            <div class="arrow">
 			                <!--img class="img-responsive" alt="" src="https://www.biglaundry.com/img/arrow.png"-->
@@ -578,7 +523,7 @@
 						<div class="item-body">
 							<div class="description">
 								<p class="lead">
-									<a href="blog-1.html" title="">HOW TO LAUNDRY YOUR SUIT OFFICE - TIPS AND TRICK</a>
+									<a href="blog-1.php" title="">HOW TO LAUNDRY YOUR SUIT OFFICE - TIPS AND TRICK</a>
 								</p>
 								<p>Yes! Our templates already for desktop, tablet and mobile layout versions. You can use only desktop device or all devices which you need.</p>
 							</div>
@@ -605,7 +550,7 @@
 						<div class="item-body">
 							<div class="description">
 								<p class="lead">
-									<a href="blog-2.html" title="">WELCOME TO OUR OFFICE IN INDONESIA, AUSTIN VISIT US</a>
+									<a href="blog-2.php" title="">WELCOME TO OUR OFFICE IN INDONESIA, AUSTIN VISIT US</a>
 								</p>
 								<p>We give you good documentation to make easy to understand about this templates and the features. if you need we can give video tutorial too.</p>
 							</div>
@@ -632,7 +577,7 @@
 						<div class="item-body">
 							<div class="description">
 								<p class="lead">
-									<a href="blog-3.html" title="">4 WAYS TO SIMPLY LAUNDRY!(CLEAN MY SPACE)</a>
+									<a href="blog-3.php" title="">4 WAYS TO SIMPLY LAUNDRY!(CLEAN MY SPACE)</a>
 								</p>
 								<p>Create and publish dynamic websites for dekstop and mobile devices that meet the latest web standards without writing any code.</p>
 							</div>
@@ -660,173 +605,17 @@
 		</div>
 		<div class="map-container">
 			<div class="map-part">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14008.103365531122!2d77.436536!3d28.6289876!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x68b3a46b96c71dd2!2sLa&#39;%20Prestige%20Drycleaners!5e0!3m2!1sen!2sin!4v1599565124843!5m2!1sen!2sin" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14008.103365531122!2d77.436536!3d28.6289876!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x68b3a46b96c71dd2!2sLa&#39;%20Prestige%20Drycleaners!5e0!3m2!1sen!2sin!4v1599565124843!5m2!1sen!2sin" width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			</div>
 			<div class="map-part">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14001.013863304182!2d77.3726695!3d28.6820636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xedb08f11e155f2c6!2sLa&#39;%20Prestige%20Drycleaners%20(Lajpat%20Nagar)!5e0!3m2!1sen!2sin!4v1599565071772!5m2!1sen!2sin" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14001.013863304182!2d77.3726695!3d28.6820636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xedb08f11e155f2c6!2sLa&#39;%20Prestige%20Drycleaners%20(Lajpat%20Nagar)!5e0!3m2!1sen!2sin!4v1599565071772!5m2!1sen!2sin" width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			</div>
 		</div>
 		
 	</section>
 	
 	
-	<!-- FOOTER SECTION -->
-	<div class="footer">
-	
-		<div class="f-desc">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="footer-item">
-							<div class="footer-logo">
-								<img src="assets/img/logo/logo2.png" alt="" />
-							</div>
-							<p>This template is a micro niche for business categories, namely laundry business. there was an excess of this template is using adobe muse making it easier to edit, add content, and without having to use the coding in the edit.</p>
-							<div class="footer-sosmed">
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-facebook"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-twitter"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-pinterest"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-google"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-instagram"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-linkedin"></i>
-									</div>
-								</a> 
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="footer-item">
-							<div class="footer-title">
-								<h4>RECENT POST</h4>
-							</div>
-							<div class="footer-blog-item">
-								<div class="footer-blog-lead">
-									<a href="blog-1.html" title="">How to laundry your suit office - tips and trick.</a>
-								</div>
-								<div class="footer-blog-date">
-									May 29, 2015
-								</div>
-							</div>
-							<div class="footer-blog-item">
-								<div class="footer-blog-lead">
-									<a href="blog-1.html" title="">How to laundry your suit office - tips and trick.</a>
-								</div>
-								<div class="footer-blog-date">
-									May 29, 2015
-								</div>
-							</div>
-							
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="footer-item">
-							<div class="footer-title">
-								<h4>Our Stores</h4>
-							</div>
-							<div class="footer-form">
-								<p>
-									L-197, L- Block Market, Lajpat Nagar, Sahibabad - 201005
-									<br><br>
-									Ajnara Gen X, Shop No. LGF-40, Crossings Republik, Ghaziabad, Uttar Pradesh 201016
-								</p>
-								
-							</div>
-							
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="footer-item">
-							<div class="footer-title">
-								<h4>GET IN TOUCH</h4>
-							</div>
-							<div class="footer-getintouch">
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-phone"></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Phone</div>
-										<div class="desc-2">:</div>
-										<div class="desc-3">+91 9859091091 <br> +91 9761088631</div>
-									</div>
-								</div>
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-envelope "></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Email</div>
-										<div class="desc-2">:</div>
-										<div class="desc-3">
-											<!--a href="mailto:support@laundryes.com" title="">support@laundryes.com</a-->
-											<a href="mailto:laprestigelaundry@gmail.com" title="">laprestigelaundry@gmail.com</a>
-										</div>
-									</div>
-								</div>
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-globe"></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Website </div>
-										<div class="desc-2">:</div>
-										<div class="desc-3">www.laprestige.in</div>
-									</div>
-								</div>
-								<!--div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-map-marker"></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Address </div>
-										<div class="desc-2">:</div>
-										<div class="desc-3">L-197, L- Block Market, Lajpat Nagar, Sahibabad - 201005<br><br>Ajnara Gen X, Shop No. LGF-40, Crossings Republik, Ghaziabad, Uttar Pradesh 201016</div>
-									</div>
-								</div-->
-								
-							</div>
-						</div>
-						
-					</div>
-					
-				</div>
-			</div>
-				
-		</div>
-		
-		<div class="fcopy">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<p class="ftex">&copy; 2016 Laundryes by Rudhi Sasmito - All Rights Reserved</p> 
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	</div>
+	<?php include "template/footer.php";?>
 
 	
 	
@@ -851,7 +640,9 @@
 		//var section = $('#pickup-section');
 	    /*$('#pickup-click').click(function(e){
 	    	window.location.href = '#pickup-section';
+
 	    })*/
+	    address_area();
 	    $("a").on('click', function(event) {
 
                     // Make sure this.hash has a value before overriding default behavior
@@ -871,9 +662,24 @@
                     } 
                 });
 	});
+	function address_area(){
+		var area = $('#area').val();
+		console.log(area);
+		if(area == ''){
+			$('#pickup_address').css('display','none');
+			$('#pickup_time').css('display','none');
+			$('#datetimepicker1').css('display','none');
+			$('#pickup_submit').css('pointer-events','none');
+		}else{
+			$('#pickup_address').css('display','block');
+			$('#pickup_time').css('display','block');
+			$('#datetimepicker1').css('display','table');
+			$('#pickup_submit').css('pointer-events','all');
+		}
+	}
 	</script>
 	
 </body>
 
-<!-- Mirrored from 138.68.248.212/demo/laundryes/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 31 Aug 2020 13:19:47 GMT -->
+<!-- Mirrored from 138.68.248.212/demo/laundryes/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 31 Aug 2020 13:19:47 GMT -->
 </html>

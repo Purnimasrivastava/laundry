@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
   
-<!-- Mirrored from 138.68.248.212/demo/laundryes/blog-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 31 Aug 2020 13:20:56 GMT -->
+<!-- Mirrored from 138.68.248.212/demo/laundryes/blog-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 31 Aug 2020 13:20:56 GMT -->
 <head>
     <!-- Basic Page Needs
     ================================================== -->
@@ -45,69 +45,7 @@
 
 <body>
 	
-	<!-- Load page -->
-	<div class="animationload">
-		<div class="loader"></div>
-	</div>
-	
-	
-	<!-- NAVBAR SECTION -->
-	<div class="navbar navbar-main navbar-fixed-top">
-		<div class="header-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
-						<div class="info">
-							<div class="info-item">
-								<span class="fa fa-phone"></span> Phone +62 7144 3300
-							</div>
-							<div class="info-item">
-								<span class="fa fa-envelope-o"></span> <a href="mailto:info@laundryes.com" title="">Email info@laundryes.com</a>
-							</div>
-							
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
-						<div class="top-sosmed pull-right">
-							<a href="#" title=""><span class="fa fa-facebook"></span></a>
-							<a href="#" title=""><span class="fa fa-twitter"></span></a>
-							<a href="#" title=""><span class="fa fa-instagram"></span></a>
-							<a href="#" title=""><span class="fa fa-pinterest"></span></a>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html"><img src="images/logo_blue.png" alt="" /></a>
-				
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
-					  <ul class="dropdown-menu">
-						<li><a href="index.html">Homepage Default</a></li>
-						<li><a href="index2.html">Homepage Sliders</a></li>
-					  </ul>
-					</li>
-					<li><a href="about.html">ABOUT</a></li>
-					<li><a href="services.html">SERVICES</a></li>
-					<li><a href="pricing.html">PRICING</a></li>
-					<li><a href="faq.html">FAQ</a></li>
-					<li class="active"><a href="blog.html">BLOG</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
-				</ul>
-			</div>
-		</div>
-    </div>
+	<?php include "template/header.php" ; ?>
 
  
 	<!-- BANNER -->
@@ -118,7 +56,7 @@
 					<div class="caption">
 						<h3>BLOG</h3>
 						<ol class="breadcrumb">
-						  <li><a href="#">Home</a></li>
+						  <li><a href="index.html">Home</a></li>
 						  <li class="active">Blog</li>
 						</ol>
 					</div>
@@ -153,34 +91,12 @@
 								<div class="tag"><i class="fa fa-tags"></i>Tips, Suit</div>
 								<div class="tag"><i class="fa fa-comments"></i>20 Comments</div>
 							</div>
-							<div id="img-slider" class="carousel slide" data-ride="carousel">
-
-								<!-- Wrapper for slides -->
-								<div class="carousel-inner" role="listbox">
-									<div class="item active">
-									   <img src="images/blog-img-1.jpg" alt="...">
-									</div>
-									<div class="item">
-									   <img src="images/blog-img-1b.jpg" alt="...">
-									</div>
-									<div class="item">
-									   <img src="images/blog-img-1c.jpg" alt="...">
-									</div>
-								</div>
-
-								<!-- Controls -->
-								<a class="left carousel-control" href="#img-slider" role="button" data-slide="prev">
-									<span class="fa fa-angle-left" aria-hidden="true"></span>
-									<span class="sr-only">Previous</span>
-								</a>
-								<a class="right carousel-control" href="#img-slider" role="button" data-slide="next">
-									<span class="fa fa-angle-right" aria-hidden="true"></span>
-									<span class="sr-only">Next</span>
-								</a>
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/frcNCwIaR0Y?autoplay=0&amp;loop=0&amp;showinfo=0&amp;theme=dark&amp;color=red&amp;controls=1&amp;modestbranding=1&amp;start=0&amp;fs=0&amp;iv_load_policy=3" allowfullscreen></iframe>
 							</div>
 							
 						</div>
-						<h3 class="post-title">How to laundry your suit Office - tips and tricks.</h3>
+						<h3 class="post-title">4 Ways to Simplify Laundry! (Clean My Space).</h3>
 						<p>Our planet is really feeling the heat of Global Warming. Humans are consuming resources like never before. A new coal-fired power plant is built in China EVERY WEEK! This all signifies that consumption of raw materials will keep on increasing. A new coal-fired power plant is built in China EVERY WEEK! This all signifies that consumption of raw materials will keep on increasing...</p>
 						<blockquote>
 						Yes! Our templates already for desktop, tablet and mobile layout versions. You can use only desktop device or all devices which you need. We give you good documentation to make easy to understand about this templates and the features. if you need we can give video tutorial too. Create and publish dynamic websites for dekstop and mobile devices that meet the latest web standards without writing any code.
@@ -366,166 +282,7 @@
 	</div>
 	
 	
-	<!-- FOOTER SECTION -->
-	<div class="footer">
-	
-		<div class="f-desc">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="footer-item">
-							<div class="footer-logo">
-								<img src="images/logo_blue.png" alt="" />
-							</div>
-							<p>This template is a micro niche for business categories, namely laundry business. there was an excess of this template is using adobe muse making it easier to edit, add content, and without having to use the coding in the edit.</p>
-							<div class="footer-sosmed">
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-facebook"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-twitter"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-pinterest"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-google"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-instagram"></i>
-									</div>
-								</a>
-								<a href="#" title="">
-									<div class="item">
-										<i class="fa fa-linkedin"></i>
-									</div>
-								</a> 
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="footer-item">
-							<div class="footer-title">
-								<h4>RECENT POST</h4>
-							</div>
-							<div class="footer-blog-item">
-								<div class="footer-blog-lead">
-									<a href="blog-1.html" title="">How to laundry your suit office - tips and trick.</a>
-								</div>
-								<div class="footer-blog-date">
-									May 29, 2015
-								</div>
-							</div>
-							<div class="footer-blog-item">
-								<div class="footer-blog-lead">
-									<a href="blog-1.html" title="">How to laundry your suit office - tips and trick.</a>
-								</div>
-								<div class="footer-blog-date">
-									May 29, 2015
-								</div>
-							</div>
-							
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="footer-item">
-							<div class="footer-title">
-								<h4>NEWSLETTER</h4>
-							</div>
-							<div class="footer-form">
-								<form action="#">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Name">
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Email">
-									</div>
-									<div class="form-group">
-										<button type="submit" class="btn btn-default">SEND</button>
-									</div>
-									
-								</form>
-							</div>
-							
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-						<div class="footer-item">
-							<div class="footer-title">
-								<h4>GET IN TOUCH</h4>
-							</div>
-							<div class="footer-getintouch">
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-phone"></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Phone</div>
-										<div class="desc-2">:</div>
-										<div class="desc-3">+62 7000 4400 <br />+62 7000 4422</div>
-									</div>
-								</div>
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-envelope "></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Email</div>
-										<div class="desc-2">:</div>
-										<div class="desc-3"><a href="mailto:support@laundryes.com" title="">support@laundryes.com</a></div>
-									</div>
-								</div>
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-globe"></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Website </div>
-										<div class="desc-2">:</div>
-										<div class="desc-3">www.laundryes.com</div>
-									</div>
-								</div>
-								<div class="footer-getintouch-item">
-									<div class="icon">
-										<b class="fa fa-map-marker"></b>
-									</div>
-									<div class="desc">
-										<div class="desc-1">Address </div>
-										<div class="desc-2">:</div>
-										<div class="desc-3">80 sukarajin street <br />Pekanbaru 40021 Riau</div>
-									</div>
-								</div>
-								
-							</div>
-						</div>
-						
-					</div>
-					
-				</div>
-			</div>
-				
-		</div>
-		
-		<div class="fcopy">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<p class="ftex">&copy; 2016 Laundryes by Rudhi Sasmito - All Rights Reserved</p> 
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	</div>
+	<?php include "template/footer.php";?>
 	
 	
 	
@@ -541,5 +298,5 @@
 	
 </body>
 
-<!-- Mirrored from 138.68.248.212/demo/laundryes/blog-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 31 Aug 2020 13:20:56 GMT -->
+<!-- Mirrored from 138.68.248.212/demo/laundryes/blog-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 31 Aug 2020 13:20:56 GMT -->
 </html>
